@@ -16,7 +16,7 @@ function Table() {
     const [state, dispatch] = useReducer(reducer, { pageNumber: 1 })
     const [tableValues, setTableValues] = useState([]);
     const [searchTableValues, setSearchTableValues] = useState([])
-    const [doShow, setDoShow] = useState(false)
+ 
 
     useEffect(() => {
 
