@@ -1,0 +1,39 @@
+.noData{
+    position: absolute;
+    top: 360px;
+    left: 50%;
+}
+.button{
+    position: fixed;
+  bottom: 20px;
+  left: 50%;
+  padding: 20px;
+    background: lavenderblush;
+    cursor: pointer;
+    
+}
+.button1{
+    margin-right: 10px;
+    border-radius: 20px;
+
+}
+.button2{
+    margin-left: 10px;
+    border-radius: 10px;
+
+}
+
+
+.button1:hover{
+    border: 2px solid;
+    color: green;
+}
+.button2:hover{
+    border: 2px solid;
+    color: green;
+}
+.button1:disabled{
+    border: 2px solid;
+    color: red;
+    cursor: not-allowed
+}
